@@ -1,4 +1,5 @@
-﻿int a = Convert.ToInt32(Console.ReadLine());
+﻿/*Task 1
+int a = Convert.ToInt32(Console.ReadLine());
 int Even = 0;
 int Odd = 0;
 int Digit = 0;
@@ -14,4 +15,4 @@ for (int i = a; i > 0; i /= 10)
 System.Console.WriteLine($"Even:{Even}");
 System.Console.WriteLine($"Even:{Odd}");
 System.Console.WriteLine($"Even:{Digit}");
-System.Console.WriteLine($"Even:{Sum}");
+System.Console.WriteLine($"Even:{Sum}");*/
