@@ -30,3 +30,15 @@ System.Console.WriteLine($"Add:{Add}");
 System.Console.WriteLine($"Subtract:{Sub}");
 System.Console.WriteLine($"Multiply:{Mult}");
 System.Console.WriteLine($"Division:{Div}");*/
+
+/*Task 3
+int a = Convert.ToInt32(Console.ReadLine());
+    int mx = -10;
+    int mn = 10;
+for (int i = a; i > 0; i /= 10)
+{
+    int t = i % 10;
+    if (t > mx) mx = t;
+    if (t < mn) mn = t;
+}
+System.Console.WriteLine($"{mn} + {mx} = {mn+mx}");*/
