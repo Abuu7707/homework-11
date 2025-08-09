@@ -42,3 +42,11 @@ for (int i = a; i > 0; i /= 10)
     if (t < mn) mn = t;
 }
 System.Console.WriteLine($"{mn} + {mx} = {mn+mx}");*/
+
+/*Task 4
+int x = Convert.ToInt32(Console.ReadLine());
+int y = Convert.ToInt32(Console.ReadLine());
+
+var pw = Math.Pow(x, y);
+
+System.Console.WriteLine(pw);*/
