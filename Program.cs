@@ -95,3 +95,16 @@ int c = Convert.ToInt32(Console.ReadLine());
 int d = Convert.ToInt32(Console.ReadLine());
 
 Sum(a, b, c, d);*/
+
+/*Task 9
+void Sum(int a, int b)
+{
+    int min = 10;
+    if (a < min) min = a;
+    if (b < min) min = b;
+    System.Console.WriteLine(min);
+}
+int a = Convert.ToInt32(Console.ReadLine());
+int b = Convert.ToInt32(Console.ReadLine());
+
+Sum(a, b);*/
