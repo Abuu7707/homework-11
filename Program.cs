@@ -108,3 +108,16 @@ int a = Convert.ToInt32(Console.ReadLine());
 int b = Convert.ToInt32(Console.ReadLine());
 
 Sum(a, b);*/
+
+/*Task 10
+void Sum(int a, int b)
+{
+    int max = -10;
+    if (a > max) max = a;
+    if (b > max) max = b;
+    System.Console.WriteLine(max);
+}
+int a = Convert.ToInt32(Console.ReadLine());
+int b = Convert.ToInt32(Console.ReadLine());
+
+Sum(a, b);*/
