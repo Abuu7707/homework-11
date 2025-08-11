@@ -65,3 +65,17 @@ Swap(ref a, ref b);
 
 System.Console.WriteLine($"x = {a}");
 System.Console.WriteLine($"y = {b}");*/
+
+/*Task 6
+void Sum(int a)
+{
+    for (int i = 1; i <= a; i++)
+    {
+        if (a % i == 0)
+        {
+            System.Console.Write(i + " ");
+        }
+    }
+}
+int a = Convert.ToInt32(System.Console.ReadLine());
+Sum(a);*/
