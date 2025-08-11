@@ -50,3 +50,18 @@ int y = Convert.ToInt32(Console.ReadLine());
 var pw = Math.Pow(x, y);
 
 System.Console.WriteLine(pw);*/
+
+/*Task 5
+void Swap(ref int x, ref int y)
+{
+    int t = x;
+    x = y;
+    y = t;
+}
+int a = Convert.ToInt32(Console.ReadLine());
+int b = Convert.ToInt32(Console.ReadLine());
+
+Swap(ref a, ref b);
+
+System.Console.WriteLine($"x = {a}");
+System.Console.WriteLine($"y = {b}");*/
